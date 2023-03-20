@@ -1,4 +1,3 @@
-
 # Description
 
 `pwsh-grep` is a PowerShell function that allows users to search for a regular expression pattern in text input from the pipeline. The function is inspired by the Unix/Linux `grep` command and provides similar functionality in PowerShell. `pwsh-grep` works by transforming the input to a string output and then searching for the user-defined pattern using the `Select-String` cmdlet.
@@ -19,12 +18,10 @@ To use `pwsh-grep`, you will need to add the function to your PowerShell profile
 
 ## Usage
 
-`grep [-Pattern] <string>`
-
-`-Pattern`: Specifies the regular expression pattern to search for. This parameter is mandatory.
+`grep <string>`
 
 Example:
 
-`Get-ChildItem *.txt | grep -Pattern "error"`
+`Get-ChildItem *.txt | grep "error"`
 
 This will search for the string "error" in all `.txt` files in the current directory and output the matching lines.
