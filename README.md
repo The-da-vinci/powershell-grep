@@ -1,6 +1,6 @@
-# Powershell-grep
+# PowerShell-Grep: Unix/Linux Grep Functionality for Windows PowerShell
 
-`powershell-grep` is a PowerShell function that allows users to search for a regular expression pattern in text input from the pipeline. The function is inspired by the Unix/Linux `grep` command and provides similar functionality in PowerShell. `powershell-grep` works by transforming the input to a string output and then searching for the user-defined pattern using the `Select-String` cmdlet.
+`PowerShell-Grep` is a unique PowerShell function that allows users to search for a regular expression pattern in text input, all from the convenience of their pipeline. This function has been inspired by the Unix/Linux grep command, providing similar functionality within the PowerShell environment. The `PowerShell-Grep` function transforms the input into a string output and then searches for the user-defined pattern using the `Select-String` cmdlet.
 
 ## Installation
 
